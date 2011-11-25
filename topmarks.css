@@ -52,7 +52,6 @@ a {
 #todo a:link, #todo  a:visited {color: #737373;}
 
 
-background-image:url(
 
 a:hover {color: #0896FF !important;}
 a[href^=http]:not([href$=inline]) {background: transparent url(i/doc.png) no-repeat -1px 2px;}
@@ -60,3 +59,23 @@ a[href^=file] 		{background: transparent url(i/folder.png) no-repeat -1px 3px;}
 a[href^=ical] 	 	{background: transparent url(i/cal.png) no-repeat 0 2px;}
 a[href^=message] 	{background: transparent url(i/email.png) no-repeat 0 2px;}
 a[href$=inline] 	{padding: 0; margin: 0;}
+
+
+a[href^=mailto] 	{background: transparent url(i/email.png) no-repeat 0 2px;}
+h5 {
+	border-bottom: 1px solid #CCC;
+	border-top-width: 0;
+}
+
+p { 
+	padding-left: 65px; 
+	position: relative;
+}
+p t,
+p d,
+p c, 
+p d {
+	position: absolute; 
+	left: 0; 
+	top: 0;
+}
